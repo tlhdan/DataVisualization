@@ -432,7 +432,7 @@ with temp_col:
             height=220,
             margin=dict(l=10, r=10, t=40, b=10),
             yaxis={"categoryorder": "total ascending"},
-            showlegend=False,   # keep clean (legend already elsewhere)
+            showlegend=False,
         )
 
         fig_worst_value.update_yaxes(
